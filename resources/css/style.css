@@ -13,6 +13,10 @@ header {
     border-bottom: 1px solid black;
 }
 
+div {
+    border: 1px solid black;
+}
+
 header nav {
     padding-right: 40px;
 }
@@ -21,6 +25,11 @@ nav span {
     display: inline-block;
     align-items: center;
     margin: 0px 10px;
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .logo {
@@ -32,4 +41,20 @@ nav span {
 
 .logo img {
     margin-right: 15px;
+}
+
+.column {
+    display: flex;
+}
+
+.column.large {
+    width: 630px;
+}
+
+.column.medium {
+    width: 300px;    
+}
+
+.column.small {
+    width: 240px;    
 }
